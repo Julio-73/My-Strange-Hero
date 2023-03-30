@@ -3,11 +3,14 @@ color: white;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-align: center;
    font-size: 2.5rem;
+   
 }
 
 h1:hover{
 
     color:gray;
+    transition: 5s;
+    
 }
 
 
@@ -20,12 +23,21 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 h2:hover{
 
     color: gray;
+    transition: 5s;
 }
 
 p{
 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: gray;
+    text-justify: distribute;
+}
+
+
+footer{
+
+    text-justify: distribute;
+    padding-top: 5rem;
 }
 
 
@@ -38,6 +50,30 @@ p{
    gap: 4rem;
 }
 
+@media screen and (max-width: 1300px){
+
+   .imagen{
+width: 35vh;
+background-color: antiquewhite;
+text-align: center;
+    }
+
+.contenedor{
+text-align: center;
+
+}
+
+.videp-1{
+
+    width: 70vh;
+    height: 400px;
+}
+
+}
+
+
+
+
 
 @media screen and (max-width: 1200px){
 
@@ -45,8 +81,17 @@ p{
 
         display: block;
     }
+    .imagen{
+        width: 55vh;
+        background-color: antiquewhite;
+        text-align: center;
+            }
 }
 
+.videp-1{
+
+    width: 58vh;
+}
 
 .conteiner{
 
@@ -57,12 +102,79 @@ p{
 
 footer{
     text-align: center;
-    color: gray;
+    color: rgb(73, 46, 46);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: ;
 }
 
 li {
 
     color: gray;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+@media screen and (max-width: 678px){
+
+.imagen{
+background-color: aqua;
+width: 40vh;
+height: 300px;
+
+
+}
+
+.videp-1{
+
+    width: 40vh;
+   
+}
+
+}
+
+
+@media screen and (max-width: 678px){
+
+    .imagen{
+width: 40vh;
+height: 250px;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 521px){
+
+.imagen{
+width: 30vh;
+
+}
+
+.videp-1{
+
+    width: 30vh;
+}
+
+
+.div, li{
+    text-align: center;
+  
+}
+
+li{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+footer{
+    font-size: 10px;
+    
+}
+
 }
